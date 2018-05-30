@@ -14,5 +14,11 @@ namespace EmpService.Controllers
 
             return View();
         }
+
+        [HttpGet]
+        public ActionResult GetEmployees()
+        {
+            return View();
+        }
     }
 }

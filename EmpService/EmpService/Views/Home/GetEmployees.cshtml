@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "GetEmployees";
+}
+@section scripts{
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var empList = $("#employee_list");
+
+            $("#btn_allemployees").click(function () {
+
+                $.ajax({
+                    type: 'GET',
+                    url: 'api/employees',
+                    dataType: 'application/json',
+                    cache: false,
+                    success: function (data) {
+                        empList.empty();
+                        $.each(data, function (key, val) {
+                            var fullname = val.FirstName + " " + val.LastName;
+                            empList.append('<li>' + fullname + '</li>');
+                        });
+
+                    },
+                    error: function (xhr, status, error) {
+                        console.log("XHR 1 ->" + xhr[0] + " XHR 2 ->" + xhr[1] + " Status " + status + " Error " + error); 
+                    }
+
+                });
+
+            });
+
+            $("#btn_clear").click(function () {
+                empList.empty();
+            });
+            
+        
+        });
+    </script>
+    }
+<h2>Get Employees</h2>
+
+<div class="btn-group">
+
+    <input id="btn_allemployees" type="button" class="btn-success" value="Get All Employees"/>
+    <input id="btn_clear" type="button" class="btn-danger" value="clear"/>
+
+</div>
+<div class="list-group">
+    <ul id="employee_list">
+
+    </ul>
+</div>
+

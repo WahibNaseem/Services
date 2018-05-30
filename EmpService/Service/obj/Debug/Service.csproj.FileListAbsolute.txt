@@ -1,0 +1,11 @@
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\bin\Debug\Service.dll.config
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\bin\Debug\Service.dll
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\bin\Debug\Service.pdb
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\bin\Debug\EntityFramework.dll
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\bin\Debug\EntityFramework.xml
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\obj\Debug\Service.dll
+C:\Users\Wahib Naseem\OneDrive\Khudvenket\Services\EmpService\Service\obj\Debug\Service.pdb
